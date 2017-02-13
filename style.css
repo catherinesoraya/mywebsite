@@ -1,6 +1,8 @@
 h1 {
-	float: right;
+	float: left;
 	font-family: 'Poiret One', cursive;
+	margin-left: 20px;
+	font-size: 70px;
 
 }
 
