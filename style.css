@@ -1,20 +1,20 @@
+body {
+	background-color: #9b0303;
+
+}
+
 h1 {
 	float: left;
 	font-family: 'Poiret One', cursive;
 	margin-left: 20px;
 	font-size: 50px;
-	background-color: #9b0303;
 
 }
 
 #logo {
 	
 	float: left;
+	
 }
 
 
-#header{
-
-	background-color: #9b0303;
-
-}	
