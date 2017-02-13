@@ -1,5 +1,17 @@
 h1 {
-	float: left;
+	float: right;
 	font-family: 'Poiret One', cursive;
+
+}
+
+#logo {
+
+	float: left;
+}
+
+
+#header{
+
+	background-color: #9b0303;
 
 }	
