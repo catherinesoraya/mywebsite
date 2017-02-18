@@ -1,2 +1,4 @@
-<?php include_once("header.html"); ?>
+<?php include("header.php");
+	include("footer.php");
+ ?>
 
