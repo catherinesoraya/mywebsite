@@ -19,7 +19,7 @@
         			<hr>
 				<li>Gallery</li>
         			<hr>
-				<li>About</li>
+				<li><a href="about.php">About</a></li>
         			<hr>
 				<li>Forum</li>
       			</ul>
