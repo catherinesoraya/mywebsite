@@ -31,7 +31,7 @@ h1 {
 
 #recentPics{
 	float:right;
-	margin-top: 30;
+	margin-top: 50;
 }
 
 #footer {
@@ -39,8 +39,8 @@ h1 {
 	clear: all;
 	position: absolute;
 	bottom: 0;
-	width: 100%;
-	left: 50%
+	//width: 100%;
+	left: 40%
 }
 li {
 	list-style-type: none;
