@@ -2,27 +2,57 @@ h1 {
 	float: left;
 	font-family: 'Carrois Gothic SC', sans-serif;
 	margin-left: 20px;
-	font-size: 55px;
-
+	font-size: 5vw;
+	width: 65%;
 }
 
 #logo {
 	
 	float: left;
+	width: vw;
+}
+#content{
 	
+	float: left;
+
+	width:50%;
+	margin-left: 30;
+
+	margin-top: -30;
+	font-family: 'Telex', sans-serif;
 }
 
 
+
+#recentText{
+	width:70%;
+	float: right;
+}
+
+#footer {
+
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 50%
+}
 li {
 	list-style-type: none;
-	font-size: 25px;
 	font-family: 'Telex', sans-serif;
-	margin: 10 20 20 10;
+	margin: 10 15 10 -5;
 }
 
 #navigation {
-  clear:left;
-  border: 1px black solid;
-  float: left;
-  
+  	clear:left;
+  	border: 1px black solid;
+  	float: left;
+	font-size: 25px; 
+	width: 15%;
+}
+
+#userlogin {
+	border: 1px black solid;
+	font-size: 12px;
+	float: right;
+	width:20%;
 }
