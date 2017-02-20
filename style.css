@@ -1,3 +1,7 @@
+body {
+	background-color: #ffeacc;
+}
+
 h1 {
 	float: left;
 	font-family: 'Carrois Gothic SC', sans-serif;
@@ -23,9 +27,34 @@ h1 {
 }
 
 
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
 
-#recentText{
+a:visited{
+
+	color: #000000;
+}
+a:hover {
+	color: #b70000;
+}
+	
+
+#aboutText{
+	margin-top: -30;
+	margin-left:15;
+	float:right;
+	width:50%;
+}
+
+#manu {
 	width:45%;
+
+}
+
+#recentText {
+	width:50%;
 	float: left;
 }
 
@@ -41,7 +70,13 @@ h1 {
 	bottom: 0;
 	left: 40%
 }
+
+ul {
+	width:100%;
+}
+
 li {
+	width:100%;
 	list-style-type: none;
 	font-family: 'Telex', sans-serif;
 	margin: 10 15 10 -5;
@@ -53,6 +88,21 @@ li {
   	float: left;
 	font-size: 25px; 
 	width: 15%;
+	background-color: rgba(255, 165, 10, 0.7);
+}
+
+hr{
+
+	margin-left: -30;
+	margin-right:40;
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+input {
+	background-color: #ffce7a;
+
 }
 
 #userlogin {
@@ -60,4 +110,5 @@ li {
 	font-size: 12px;
 	float: right;
 	width:20%;
+	 background-color: rgba(255, 165, 10, 0.7);
 }
