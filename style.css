@@ -124,18 +124,17 @@ hr{
         float: right;
 }
 
-#thread {
+#threadBody {
         float: right;
-        height: 100%;
+        height: 500px;
         background-color: #ffce7a;
         width: 50%;
 }
 
-input,textarea {
+input {
 	background-color: #ffce7a;
 	width:70%;	
 }
-
 #searchBar{
 	width:10%;
 }	
