@@ -15,6 +15,14 @@ h1 {
 	float: left;
 	width: 15%;
 }
+
+textarea {
+        float: right;
+        height: 100%;
+        background-color: #ffce7a;
+        width: 50%;
+}
+
 #content{
 	
 	float: left;
@@ -122,12 +130,6 @@ hr{
         float: right;
 }
 
-#threadBody {
-        float: right;
-        height: 100%;
-	background-color: #ffce7a;
-	width: 50%;
-}
 input {
 	background-color: #ffce7a;
 	width:70%;	
