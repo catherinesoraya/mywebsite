@@ -7,7 +7,7 @@
 	<div id="content">
 		title: <input type="text" id="threadTitle" name="threadtitle">
 		<br>
-		body: <textarea name="threadBody" rows="20" cols="100"></textarea>
+		body: <textarea id="thread" rows="20" cols="100">enter body here</textarea>
 
 	</div>
 

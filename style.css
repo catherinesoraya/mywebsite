@@ -124,7 +124,7 @@ hr{
         float: right;
 }
 
-textarea[name=threadBody]  {
+#thread {
         float: right;
         height: 100%;
         background-color: #ffce7a;
