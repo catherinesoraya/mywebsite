@@ -120,6 +120,12 @@ hr{
     border: 0;
 }
 
+
+input {
+	background-color: #ffce7a;
+	width:70%;	
+}
+
 input[name=threadTitle] {
 
         float: right;
@@ -132,10 +138,6 @@ input[name=threadBody] {
         width: 50%;
 }
 
-input {
-	background-color: #ffce7a;
-	width:70%;	
-}
 #searchBar{
 	width:10%;
 }	
