@@ -5,25 +5,31 @@ body {
 h1 {
 	float: left;
 	font-family: 'Carrois Gothic SC', sans-serif;
-	margin-left: 20px;
-	font-size: 5vw;
-	width: 65%;
+	margin-left: 25px;
+	font-size: 6vw;
+	width: 70%;
 }
 
 #logo {
 	
 	float: left;
-	width: vw;
+	width: 15%;
 }
 #content{
 	
 	float: left;
 
-	width:50%;
+	width:65%;
 	margin-left: 30;
 
-	margin-top: -30;
+	margin-bottom: 50;
 	font-family: 'Telex', sans-serif;
+}
+
+#gallery {
+	width: 45%;
+	margin: 10 10 10 10;
+
 }
 
 
@@ -49,10 +55,14 @@ a:hover {
 }
 
 #manu {
-	width:45%;
-
+	width:30%;
+	
 }
 
+#manu1 {
+	width: 40%;
+	margin-bottom: 10;
+}
 #recentText {
 	width:50%;
 	float: left;
@@ -63,20 +73,28 @@ a:hover {
 	margin-top: 50;
 }
 
+#recentPic {
+	margin-right:10;
+}
+	
 #footer {
-	margin-top:100px;
-	clear: all;
-	position: absolute;
-	bottom: 0;
-	left: 40%
+	position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:30px;
+   	width:100%;
+  	background-color: rgba(255, 165, 10, 0.7);
+	text-align: center;
+	font-family: 'Telex', sans-serif;
+	font-size: vw;
 }
 
-ul {
+ul{
 	width:100%;
 }
 
 li {
-	width:100%;
+
 	list-style-type: none;
 	font-family: 'Telex', sans-serif;
 	margin: 10 15 10 -5;
@@ -86,7 +104,7 @@ li {
   	clear:left;
   	border: 1px black solid;
   	float: left;
-	font-size: 25px; 
+	font-size: 2.5vw; 
 	width: 15%;
 	background-color: rgba(255, 165, 10, 0.7);
 }
@@ -102,13 +120,17 @@ hr{
 
 input {
 	background-color: #ffce7a;
-
+	width:70%;	
 }
+
+#searchBar{
+	width:10%;
+}	
 
 #userlogin {
 	border: 1px black solid;
-	font-size: 12px;
+	font-size: vw;
 	float: right;
-	width:20%;
-	 background-color: rgba(255, 165, 10, 0.7);
+	width:15%;
+	background-color: rgba(255, 165, 10, 0.7);
 }
