@@ -117,7 +117,16 @@ hr{
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
 }
+#threadTitle {
 
+        float: right;
+}
+
+#threadBody {
+        float: right;
+        height: 100%;
+
+}
 input {
 	background-color: #ffce7a;
 	width:70%;	
@@ -127,18 +136,6 @@ input {
 	width:10%;
 }	
 
-#title {
-
-	float: right;
-	width: 60%;
-}
-
-#threadBody {
-	float: right;
-	width: 60%;
-	height: 100%;
-	
-}
 #userlogin {
 	border: 1px black solid;
 	font-size: vw;

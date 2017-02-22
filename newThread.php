@@ -5,9 +5,9 @@
 ?>
 
 	<div id="content">
-		title: <input type="text" id="title" name="title">
+		title: <input type="text" id="threadTitle" name="threadtitle">
 		<br>
-		body: <input type="text" id="threadBody" name="threadBody">
+		body: <input type="text" id="threadBody" name="threadbody">
 
 	</div>
 
