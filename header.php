@@ -15,13 +15,13 @@
 		</div>
 		<div id="navigation">
 			<ul>
-				<li><a href="index.html">Home</a></li>
+				<li><a href="index.php">Home</a></li>
         			<hr>
-				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="gallery.php">Gallery</a></li>
         			<hr>
-				<li><a href="about.html">About</a></li>
+				<li><a href="about.php">About</a></li>
         			<hr>
-				<li><a href="forum.html">Forum</a></li>
+				<li><a href="forum.php">Forum</a></li>
       			</ul>
    		</div>
 	<div id="userlogin">
