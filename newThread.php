@@ -10,3 +10,9 @@
 		body: <input type="text" id="threadBody" name="threadBody">
 
 	</div>
+
+<?php
+
+	include("footer.php");
+
+?>

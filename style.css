@@ -18,7 +18,7 @@ h1 {
 #content{
 	
 	float: left;
-
+	height: 60%;
 	width:65%;
 	margin-left: 30;
 
@@ -136,7 +136,7 @@ input {
 #threadBody {
 	float: right;
 	width: 60%;
-	height: 500px;
+	height: 100%;
 	
 }
 #userlogin {
