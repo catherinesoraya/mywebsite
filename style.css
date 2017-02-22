@@ -119,12 +119,13 @@ hr{
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
 }
-#threadTitle {
+
+input[name=threadTitle] {
 
         float: right;
 }
 
-#threadBody {
+input[name=threadBody] {
         float: right;
         height: 500px;
         background-color: #ffce7a;
