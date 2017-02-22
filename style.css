@@ -16,7 +16,7 @@ h1 {
 	width: 15%;
 }
 
-textarea {
+#threadBody {
         float: right;
         height: 100%;
         background-color: #ffce7a;
