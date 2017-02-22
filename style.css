@@ -127,6 +127,18 @@ input {
 	width:10%;
 }	
 
+#title {
+
+	float: right;
+	width: 60%;
+}
+
+#threadBody {
+	float: right;
+	width: 60%;
+	height: 200;
+	
+}
 #userlogin {
 	border: 1px black solid;
 	font-size: vw;
