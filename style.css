@@ -125,7 +125,8 @@ hr{
 #threadBody {
         float: right;
         height: 100%;
-
+	background-color: #ffce7a;
+	width: 50%;
 }
 input {
 	background-color: #ffce7a;
