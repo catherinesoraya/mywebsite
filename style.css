@@ -16,12 +16,6 @@ h1 {
 	width: 15%;
 }
 
-textarea[name=threadBody]  {
-        float: right;
-        height: 100%;
-        background-color: #ffce7a;
-        width: 50%;
-}
 
 #content{
 	
@@ -130,7 +124,14 @@ hr{
         float: right;
 }
 
-input {
+textarea[name=threadBody]  {
+        float: right;
+        height: 100%;
+        background-color: #ffce7a;
+        width: 50%;
+}
+
+input,textarea {
 	background-color: #ffce7a;
 	width:70%;	
 }
