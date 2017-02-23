@@ -126,17 +126,23 @@ input {
 	width:70%;	
 }
 
-input[name=threadTitle] {
-
-        float: right;
+input[name=threadtitle] {
+	width: 90%;
+       margin-left: 8;
 }
 
 input[name=threadBody] {
-      
-        height: 300px;
+      	
+	width:90%;
+	margin-left: 5;
+	margin-bottom: 30;
+
+	height: 100;
+	margin-top: 50px;
         background-color: #ffce7a;
       
 }
+
 
 #searchBar{
 	width:10%;
