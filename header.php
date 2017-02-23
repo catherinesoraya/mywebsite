@@ -2,7 +2,7 @@
 	<head>
 		<title>Manucher Yazdanpour</title>
 
-		<link rel="icon" href="pics/favicon.ico" type="image/x-icon"/>
+		<link rel="icon" href="pics/favicon.png" type="image/x-icon"/>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">	
 		<link href="https://fonts.googleapis.com/css?family=Telex" rel="stylesheet">
