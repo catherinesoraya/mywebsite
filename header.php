@@ -1,8 +1,8 @@
 <html>
-	<header><title>Manucher Yazdanpour</title></header>
-
 	<head>
-		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<title>Manucher Yazdanpour</title>
+
+		<link rel="icon" href="pics/favicon.ico" type="image/x-icon"/>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">	
 		<link href="https://fonts.googleapis.com/css?family=Telex" rel="stylesheet">
