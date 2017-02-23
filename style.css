@@ -133,9 +133,9 @@ input[name=threadTitle] {
 
 input[name=threadBody] {
         float: right;
-        height: 500px;
+        height: 300px;
         background-color: #ffce7a;
-        width: 50%;
+      
 }
 
 #searchBar{
