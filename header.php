@@ -29,7 +29,7 @@
 	<ul>
 		<li>username:<br><input type="text" id="username" name="username"></li>
 		<li>password:<br><input type="password" id="passwd" name="passwd"></li>	
-		<li><button type="button"><a href="myaccount.html">Log In</a></button></li>		
+		<li><button type="button"><a href="myaccount.php">Log In</a></button></li>		
 	</ul>
 	</div>
 	
