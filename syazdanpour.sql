@@ -1,0 +1,18 @@
+CREATE TABLE user (
+email VARCHAR(256) NOT NULL PRIMARY KEY,
+username VARCHAR(256) NOT NULL,
+password VARCHAR(64) NOT NULL
+);
+
+CREATE TABLE forum (
+username VARCHAR(256) DEFAULT 'anonymous',
+title VARCHAR(256) NOT NULL,
+body VARCHAR(512) NOT NULL,
+date_created DATE 
+);
+
+CREATE TABLE photos (
+name VARCHAR(128) NOT NULL,
+file_name VARCHAR(64) NOT NULL,
+description VARCHAR(512) NOT NULL,
+);
