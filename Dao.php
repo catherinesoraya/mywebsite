@@ -13,6 +13,16 @@ class Dao {
           $this->pass);
   }
 
+	public function createUser($email, $username, $password){
+		$con = $this->getConnection();
+		$newQuery = "insert into user (email, username, password) values (:email, :username, :password)";
+		$prep = $con->prepare($newQuery);
+		$prep->bindParam(":email", $email);
+		$prep->bindParam(":username", $username);
+		$prep->bindParam(":password", $password);
+		$prep->execute();
+	}
+
 }
 
 ?>
