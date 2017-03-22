@@ -11,8 +11,8 @@
 		<div id ="header">
       			<img id="logo" src="pics/zoro.png"/>
      			 <h1>Manucher Yazdanpour</h1>
- 			<input type="text" id="searchBar" name="search">
-			<button type="button">search</button>  	
+ 			<!--<input type="text" id="searchBar" name="search">
+			<button type="button">search</button>-->  	
 		</div>
 		<div id="navigation">
 			<ul>
@@ -29,7 +29,8 @@
 	<ul>
 		<li>username:<br><input type="text" id="username" name="username"></li>
 		<li>password:<br><input type="password" id="passwd" name="passwd"></li>	
-		<li><button type="button"><a href="myaccount.php">Log In</a></button></li>		
+		<button type="button"><a href="myaccount.php">Log In</a></button>		
+		<button type="button"><a href="register.php">Register</a></button>
 	</ul>
 	</div>
 	
