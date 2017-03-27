@@ -26,7 +26,7 @@ class Dao {
 
 	 public function createThread($title, $body){
                 $con = $this->getConnection();
-                $newQuery = "insert into forum (username, title, body, date_created) values (username, :title, :body, GETDATE())";
+                $newQuery = "insert into forum (username, title, body, date_created) values ('username', :title, :body, 12/12/2012)";
                 $prep = $con->prepare($newQuery);
                 $prep->bindParam(":title", $title);
                 $prep->bindParam(":body", $body);
