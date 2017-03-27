@@ -5,10 +5,11 @@
 ?>
 
 	<div id="content">
+		<form method="POST" action="handleThread.php"  enctype="multipart/form-data">
 		title: <input type="text" id="threadTitle" name="threadtitle">
 		<br>
 		body: <input type="text" id="threadBody" name="threadBody">
-		<button type="button" id="post">post</button>
+		<input type="submit">
 	</div>
 
 <?php

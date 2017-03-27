@@ -23,6 +23,15 @@ class Dao {
 		$prep->execute();
 	}
 
+
+	 public function createThread($title, $body){
+                $con = $this->getConnection();
+                $newQuery = "insert into forum (title, body, date) values (:title, :body, GETDATE())";
+                $prep = $con->prepare($newQuery);
+                $prep->bindParam(":title", $title);
+                $prep->bindParam(":body", $body);
+                $prep->execute();
+        }
 }
 
 ?>
