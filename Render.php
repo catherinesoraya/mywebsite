@@ -1,6 +1,6 @@
 <?php
-class formatForum {
-  public static function format($data) {
+class FormatForum {
+  public static function formatTable($data) {
     $table = "
       <table id='forum'>
       <thead>

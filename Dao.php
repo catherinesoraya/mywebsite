@@ -33,9 +33,10 @@ class Dao {
                 $prep->execute();
         }
 
-	public function getComments () {
-		$con = $this->getConnection();
-    		return $con->query("select title, username, date_entered from forum order by date_entered desc");
+	public function getThreads() {
+		$conn = $this->getConnection();
+    		echo 'connected';
+		return $conn->query("select username, title, date_created from forum order by date_created desc");
   	}
 	
 }

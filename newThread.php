@@ -1,9 +1,6 @@
 <?php
 
 	include("header.php");
-	require_once 'Dao.php';
-	require_once 'formatForum.php';
-	$dao = new Dao();
 ?>
 
 	<div id="content">
@@ -13,7 +10,6 @@
 		body: <input type="text" id="threadBody" name="threadBody">
 		<input type="submit">
 	
-	<?php formatForum::format($dao->getThreads()); ?>
 	</div>
 
 <?php
