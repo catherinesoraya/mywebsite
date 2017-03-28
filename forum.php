@@ -1,9 +1,9 @@
 <?php 
 
 	include("header.php");
-	require_once('Dao.php');
-	require_once('Render.php');
-        $dao = new Dao();
+	require_once 'Dao.php';
+	require_once 'Render.php';
+	$dao = new Dao();
 ?>
 	<div id="content">
 		<h2>Forum</h2>
@@ -12,8 +12,8 @@
 	
 	<?php 
 		echo 'hello';
-                Render::formatTable($dao->getThreads()); ?>		
-		echo 'hi';
+		//Render::formatTable($dao->getThreads()); ?>		
+
 	</div>	
 <?php
 	include("footer.php");
