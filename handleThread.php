@@ -17,8 +17,8 @@
 
         //DO MORE STUFF WITH PASSWORD & EMAIL?
 
-        $dao->createThread($title, $body);
+        $dao->createThread('username',$title, $body);
 	
-	header("Location:newThread.php");
+	header("Location:forum.php");
 
         exit;
