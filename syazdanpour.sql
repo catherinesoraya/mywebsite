@@ -22,7 +22,5 @@ description VARCHAR(64) NOT NULL
 show databases;
 use heroku_e707007638085c8;
 
-select username, title, date_created from forum order by date_created desc;
-
-
+select * from user;
 

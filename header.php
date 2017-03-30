@@ -26,12 +26,29 @@
       			</ul>
    		</div>
 	<div id="userlogin">
+<?php
+	session_start();
+	
+	if(!isset($_SESSION['loggedIn']) || $_SESSION['loggedIn'] ==0){
+
+	if($_SESSION['loggedIn'] ==0){
+		echo $_SESSION['logInMessage'];
+	}
+	echo "<form method='POST' action='handleLogin.php' name='login' id='login'>
 	<ul>
-		<li>username:<br><input type="text" id="username" name="username"></li>
-		<li>password:<br><input type="password" id="passwd" name="passwd"></li>	
-		<button type="button"><a href="myaccount.php">Log In</a></button>		
-		<button type="button"><a href="register.php">Register</a></button>
+		<li>username:<br><input type='text' id='username' name='username'></li>
+		<li>password:<br><input type='password' id='passwd' name='passwd'></li>	
+		<input type='submit' value='Log In'>		
+		<button type='button'><a href='register.php'>Register</a></button>
 	</ul>
+	</form> ";
+}elseif($_SESSION['loggedIn'] == 1){
+		echo $_SESSION['logInMessage'];
+	echo "<button type='button'><a href='handleLogout.php'>Log Out</a></button>";	
+}
+?>
+
+
 	</div>
 	
 

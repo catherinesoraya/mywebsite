@@ -21,7 +21,7 @@
 
 	$dao->createUser($email, $username, $password);
 
-	header("Location:register.php");
+	header("Location:index.php");
 
 	exit;
 

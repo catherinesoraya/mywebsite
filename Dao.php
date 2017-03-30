@@ -8,7 +8,14 @@ class Dao {
   private $pass = "ed34e7de";
 
 	public function getConnection () {
-		return new PDO("mysql:host={$this->host};dbname={$this->db}", $this->user,$this->pass);
+		try{
+		$conn = new PDO("mysql:host={$this->host};dbname={$this->db}", $this->user,$this->pass);
+		}
+		catch(Exception $e){
+			echo 'something is wrong';
+			exit;
+		}
+		return $conn;
   	}
 
 
@@ -34,10 +41,17 @@ class Dao {
         }
 
 	public function getThreads() {
-		$conn = $this->getConnection();
-    		echo 'connected';
-		return $conn->query("select username, title, date_created from forum order by date_created desc");
+		$con = $this->getConnection();
+		$data = $con->query("select username, title, date_created from forum order by date_created desc");
+		
+		return $data;	
   	}
-	
-}
 
+	public function findUser($username, $password) {
+                $con = $this->getConnection();
+                $data = $con->query("select * from user where username = '".$username."' and password = '".$password."'");
+
+                return $data;
+        }	
+}
+?>
