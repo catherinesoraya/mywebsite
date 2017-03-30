@@ -17,7 +17,7 @@ class Render {
 	foreach($data as $row){
 	$table .= "<tr>
 	<td>". $row[username] . "</td>".
-	"<td>" . $row[title] . "</td>" .
+	"<td><a href='thread.php'>" . $row[title] . "</a></td>" .
 	"<td>" . $row[date_created] . "</td></tr>";
 	}
 

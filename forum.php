@@ -10,6 +10,8 @@ $dao = new Dao();
 <button type="button"><a href="newThread.php">create a thread</a></button>
 
 <?php
+
+sleep(2);
 if($_SESSION['loggedIn'] == 1){
 	$username = $_SESSION['username'];
 	$title = htmlentities($_POST['threadTitle']);

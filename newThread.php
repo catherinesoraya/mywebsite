@@ -18,7 +18,7 @@
 
 <?php	
 	$_SESSION['forum'] = 1;
-	header("Location:forum.php");
+	
 	include("footer.php");
 
 ?>
