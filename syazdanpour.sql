@@ -13,14 +13,6 @@ body VARCHAR(64) NOT NULL,
 date_created DATE
 );
 
-CREATE TABLE photos (
-name VARCHAR(16) NOT NULL,
-file_name VARCHAR(16) NOT NULL,
-description VARCHAR(64) NOT NULL
-);
 
-show databases;
-use heroku_e707007638085c8;
 
-select * from user;
 
