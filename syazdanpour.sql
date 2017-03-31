@@ -13,6 +13,7 @@ body VARCHAR(64) NOT NULL,
 date_created DATE
 );
 
-
+delete from user where email IS NULL;
+select * from user;
 
 

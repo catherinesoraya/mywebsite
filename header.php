@@ -34,6 +34,8 @@
 	if($_SESSION['loggedIn'] ==0){
 		echo $_SESSION['logInMessage'];
 	}
+	
+	
 	echo "<form method='POST' action='handleLogin.php' name='login' id='login'>
 	<ul>
 		<li>username:<br><input type='text' id='username' name='username'></li>
@@ -46,6 +48,8 @@
 		echo $_SESSION['logInMessage'];
 	echo "<button type='button'><a href='handleLogout.php'>Log Out</a></button>";	
 }
+
+unset($_SESSION['logInMessage']);
 ?>
 
 

@@ -10,23 +10,33 @@
 	$username = htmlentities($_POST['usernameR']);
 	$password = htmlentities($_POST['passwdR']);
 
+	if(!empty($email) && !empty($username) && !empty($password)){
 	if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
 		$_SESSION['inputs'] = $_POST;
-		exit;
+		$_SESSION['registerMessage'] = "your email is invalid. please try again.";
+
+	
 	}else{
 		unset($_SESSION['inputs']);
-	}
-
-	//DO MORE STUFF WITH PASSWORD & EMAIL?
-
+		$_SESSION['registerMessage'] = "you have successfully registered!";
+	
 	$dao->createUser($email, $username, $password);
+	}
+}else{
 
-	header("Location:index.php");
+	unset($_SESSION['registerMessage']);
+	$_SESSION['registerMessage'] = "at least one field was blank. please try again.";
+}
 
+	header("Location:register.php");
 	exit;
 
 
+	//DO MORE STUFF WITH PASSWORD & EMAIL?
 
-			
+
+
+
+
 			
 			
