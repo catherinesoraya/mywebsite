@@ -7,7 +7,7 @@ $dao = new Dao();
 ?>
 <div id="content">
 <h2>Forum</h2>
-<button type="button"><a href="newThread.php">create a thread</a></button>
+<button type="button"> <?php if($_SESSION['loggedIn']==1) echo " <a href='newThread.php'>create a thread</a>"; else echo "create a thread"; ?></button>
 
 <?php
 

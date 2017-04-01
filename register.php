@@ -14,9 +14,12 @@
 	</form>
 <?php
 	
-	
-     echo $_SESSION['registerMessage'];
-	
+	if(isset($_SESSION['registerMessage'])){	
+     		echo $_SESSION['registerMessage'];
+		unset($_SESSION['registerMessage']);
+		header("Location:register.php");
+		echo "unset";
+	}
 ?>
 
 </div>
