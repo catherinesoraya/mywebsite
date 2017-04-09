@@ -25,5 +25,5 @@
 
 }
 
-	 header("Location:newthread.php");
+	 header("Location:newThread.php");
         exit;

@@ -7,7 +7,7 @@
 
 <div id="content">
 <h2>Forum</h2>
-<button type="button"> <?php if($_SESSION['loggedIn']==1) echo " <a href='newthread.php'>create a thread</a>"; else echo "create a thread"; ?></button>
+<button type="button"> <?php if($_SESSION['loggedIn']==1) echo " <a href='newThread.php'>create a thread</a>"; else echo "create a thread"; ?></button>
 
 <?php
 
