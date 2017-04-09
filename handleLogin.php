@@ -8,6 +8,8 @@
 
         $username = htmlentities($_POST['username']);
         $password = htmlentities($_POST['passwd']);
+	$password = hash('sha256', $password);
+
 
 if(!empty($username) && !empty($password)){	
 	$login = $dao->findUser($username, $password);

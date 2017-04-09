@@ -13,7 +13,7 @@
               $_SESSION['inputs'] = $_POST;
 		$_SESSION['forumMessage'] = "at least one field was blank. please try again.";
          }else{
-		if(preg_match("/^[a-zA-Z0-9_ ]+$/", $title) && preg_match("/^[a-zA-Z0-9]+$/", $body)){
+		if(preg_match("/^[A-Za-z0-9 _[:print:]]+$/", $title) && preg_match("/^[A-Za-z0-9 _[:print:]]+$/", $body)){
                unset($_SESSION['inputs']);
 		  $_SESSION['forumMessage'] = "you have successfully created a forum post ";
        	 	  $dao->createThread($username,$title, $body);

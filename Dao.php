@@ -60,5 +60,14 @@ class Dao {
 
                 return $data;
         }
+
+
+       public function checkEmail($email) {
+                $con = $this->getConnection();
+                $data = $con->query("select * from user where email = '".$email."'");
+
+                return $data;
+        }
 }
+
 ?>

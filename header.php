@@ -36,11 +36,15 @@
 
 	if($_SESSION['loggedIn'] ==0){
 		echo $_SESSION['logInMessage'];
+		if($_SESSION['register'] == 1){ echo "you have successfully registered. now you can login with your new credentials.";	
+		unset($_SESSION['register']);
+		} 
+
 	}
 	
 	
 	echo "<form method='POST' action='handleLogin.php' name='login' id='login'>
-	<ul>
+	<ul> 
 		<li>username:<br><input type='text' id='username' name='username'></li>
 		<li>password:<br><input type='password' id='passwd' name='passwd'></li>	
 		<input type='submit' value='Log In'>		
