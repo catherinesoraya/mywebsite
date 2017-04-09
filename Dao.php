@@ -53,5 +53,12 @@ class Dao {
 
                 return $data;
         }	
+
+	public function findThread($title, $user) {
+                $con = $this->getConnection();
+                $data = $con->query("select * from forum where username = '".$user."' and title= '".$title."'");
+
+                return $data;
+        }
 }
 ?>

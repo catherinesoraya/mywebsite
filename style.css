@@ -16,6 +16,11 @@ h1 {
 	width: 15%;
 }
 
+table tr td {
+
+	padding: 5 5;
+}
+
 
 #content{
 	
@@ -155,3 +160,4 @@ input[name=threadBody] {
 	width:15%;
 	background-color: rgba(255, 165, 10, 0.7);
 }
+

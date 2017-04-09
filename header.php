@@ -1,3 +1,7 @@
+<?php 
+	session_start();
+?>
+
 <html>
 	<head>
 		<title>Manucher Yazdanpour</title>
@@ -27,7 +31,6 @@
    		</div>
 	<div id="userlogin">
 <?php
-	session_start();
 	
 	if(!isset($_SESSION['loggedIn']) || $_SESSION['loggedIn'] ==0){
 

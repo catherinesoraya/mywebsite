@@ -17,8 +17,11 @@
 	if(isset($_SESSION['registerMessage'])){	
      		echo $_SESSION['registerMessage'];
 		unset($_SESSION['registerMessage']);
-		header("Location:register.php");
-		echo "unset";
+		if($_SESSION['register'] == 1){
+			unset($_SESSION['register']);
+			sleep(25);
+		       echo "<meta http-equiv='refresh' content='0;index.php' />";
+		}
 	}
 ?>
 

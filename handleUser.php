@@ -21,18 +21,18 @@
 		$_SESSION['registerMessage'] = "you have successfully registered!";
 	
 	$dao->createUser($email, $username, $password);
+	$_SESSION['register'] = 1;
 	}
 }else{
 
-	unset($_SESSION['registerMessage']);
 	$_SESSION['registerMessage'] = "at least one field was blank. please try again.";
+	
 }
 
 	header("Location:register.php");
 	exit;
 
 
-	//DO MORE STUFF WITH PASSWORD & EMAIL?
 
 
 
