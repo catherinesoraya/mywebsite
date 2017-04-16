@@ -42,7 +42,7 @@ class Dao {
 
 	public function getThreads() {
 		$con = $this->getConnection();
-		$data = $con->query("select username, title, date_created from forum order by date_created desc");
+		$data = $con->query("select username, title, body, date_created from forum order by date_created desc");
 		
 		return $data;	
   	}

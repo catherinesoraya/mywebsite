@@ -3,7 +3,7 @@
 CREATE TABLE user (
 email VARCHAR(32) NOT NULL PRIMARY KEY,
 username VARCHAR(16) NOT NULL,
-password VARCHAR(16) NOT NULL
+password VARCHAR(64) NOT NULL
 );
 
 CREATE TABLE forum (
@@ -13,6 +13,8 @@ body VARCHAR(64) NOT NULL,
 date_created DATE
 );
 
-select * from user;
-
+show databases;
+use heroku_e707007638085c8;
+delete from forum where title = '';
+select * from forum;
 

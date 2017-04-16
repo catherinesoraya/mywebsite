@@ -8,11 +8,11 @@
 
         $username = htmlentities($_POST['username']);
         $password = htmlentities($_POST['passwd']);
-	$password = hash('sha256', $password);
+	$passwordHashed = hash('sha256', $password);
 
 
 if(!empty($username) && !empty($password)){	
-	$login = $dao->findUser($username, $password);
+	$login = $dao->findUser($username, $passwordHashed);
 
 	$count = 0;
 	foreach($login as $row)
@@ -29,11 +29,12 @@ if(!empty($username) && !empty($password)){
 		$_SESSION['logInMessage'] = "you are now logged in, $username";
 	}
 	else{
-
+		$_SESSION['inputs'] = $_POST;
 		$_SESSION['loggedIn'] = 0;
 		$_SESSION['logInMessage'] = "Your log in credentials are invalid. Please try logging in again.";
 	}
 }else{
+	 $_SESSION['inputs'] = $_POST;
 	$_SESSION['loggedIn'] = 0;
 	$_SESSION['logInMessage'] = "One or more of the log in fields was blank. Please try logging in again.";
 }

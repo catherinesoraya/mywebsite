@@ -9,6 +9,7 @@ class Render {
         <tr>
            <th>User</th>
            <th>Title</th>
+	   <th>Body</th>
            <th>Date</th>
         </tr>
        </thead>";
@@ -16,7 +17,8 @@ class Render {
 	foreach($data as $row){
 	$table .= "<tr>
 	<td>". $row[username] . "</td>".
-	"<td><a href='thread.php?".$count."'>" . $row[title] . "</a></td>" .
+	"<td>" . $row[title] . "</td>" .
+	"<td>". $row[body] ."</td>" .
 	"<td>" . $row[date_created] . "</td></tr>";
 	
 	$myArray[$count] = $row;
