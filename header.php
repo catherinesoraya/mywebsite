@@ -25,13 +25,13 @@
 		</div>
 		<div id="navigation">
 			<ul>
-				<li><a href="index.php" id="nav">Home</a></li>
+				<li><a href="index.php" id="nav1">Home</a></li>
         			<hr>
-				<li><a href="gallery.php" id="nav">Gallery</a></li>
+				<li><a href="gallery.php" id="nav2">Gallery</a></li>
         			<hr>
-				<li><a href="about.php" id="nav">About</a></li>
+				<li><a href="about.php" id="nav3">About</a></li>
         			<hr>
-				<li><a href="forum.php" id="nav">Forum</a></li>
+				<li><a href="forum.php" id="nav4">Forum</a></li>
       			</ul>
    		</div>
 
@@ -73,6 +73,20 @@ unset($_SESSION['logInMessage']);
   <script type="text/javascript" src="slick/slick.min.js"></script>
 
 <script>
-$("a[href*='" + location.pathname + "']").addClass("current");
+$( "#nav1" ).click(function() {
+	$("a[href*='"index.php"']").addClass("current");
+});
+
+$( "#nav2" ).click(function() {
+        $("a[href*='"gallery.php"']").addClass("current");
+});
+
+$( "#nav3" ).click(function() {
+        $("a[href*='"about.php"']").addClass("current");
+});
+
+$( "#nav4" ).click(function() {
+        $("a[href*='"forum.php"']").addClass("current");
+});
 </script>	
 	
