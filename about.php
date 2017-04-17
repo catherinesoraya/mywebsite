@@ -20,7 +20,7 @@
 	
 		<span id="aboutText"><h3 align="center"> Manucher Lenjani Yazdanpour</h3>
 		<h4 align="center">1939 - 1974</h4>
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ex eorum enim scriptis et institutis cum omnis doctrina liberalis, omnis historia. Hoc non est positum in nostra actione. Quis est, qui non oderit libidinosam, protervam adolescentiam? At iam decimum annum in spelunca iacet. Hic ambiguo ludimur. Duo Reges: constructio interrete.</p>
+	<p> Manucher Yazdanpour was a Plein Air Impressionist painter from the mid to late 20th century. Born and raised in Isfahan, Iran, Manucher was able to paint beautiful scenes of the villages and countrysides around him. In 1964, Manucher came to the USA to pursue his dreams of going to art school in California. It was there in Los Angeles that he met the mother of his two boys, Moraad and Rostam. Manucher worked for Pacific Advertising from 1965 to 1972. He died in 1974 and is missed greatly by his family in Iran and his family in the USA including his granddaughter, the creator of this website. Through his art and his family, Manucher Yazdanpour will always be remembered. </p>
 	</span>
 	
 	<img id="manu" src="pics/manu.jpg"/>
