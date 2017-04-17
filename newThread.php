@@ -1,6 +1,17 @@
 <?php
 	include("header.php");
 ?>
+<div id="navigation">
+                        <ul>
+                                <li><a href="index.php" id="nav1">Home</a></li>
+                                <hr>
+                                <li><a href="gallery.php" >Gallery</a></li>
+                                <hr>
+                                <li><a href="about.php" id="nav3">About</a></li>       
+                                <hr>
+                                <li><a href="forum.php" style="background-color:#d8d804">Forum</a></li>       
+                        </ul>
+                </div>
 
 	<div id="content">
 		<h2> Forum > New Thread </h2>

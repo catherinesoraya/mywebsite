@@ -2,6 +2,17 @@
 	include("header.php");
 	session_start();
 ?>
+	<div id="navigation">
+                        <ul>
+                                <li><a href="index.php" style="background-color:#d8d804">Home</a></li>
+                                <hr>
+                                <li><a href="gallery.php">Gallery</a></li>
+                                <hr>                                
+				<li><a href="about.php">About</a></li> 
+                                <hr>                                
+				<li><a href="forum.php" id="nav4">Forum</a></li>                        
+			</ul>                
+	</div>
 
 	<div id="content">
                 <h2>Home</h2>

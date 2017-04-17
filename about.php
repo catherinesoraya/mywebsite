@@ -1,6 +1,17 @@
 <?php
 	include('header.php');
 ?>
+<div id="navigation">
+                        <ul>
+                                <li><a href="index.php" id="nav1">Home</a></li>
+                                <hr>
+                                <li><a href="gallery.php">Gallery</a></li>
+                                <hr>
+                                <li><a href="about.php" style="background-color:#d8d804">About</a></li>       
+                                <hr>
+                                <li><a href="forum.php" id="nav4">Forum</a></li>       
+                        </ul>
+                </div>
 		
 	<div id="content">
 		<h2>About the Artist</h2>

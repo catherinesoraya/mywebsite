@@ -20,10 +20,9 @@
 		<div id ="header">
       			<img id="logo" src="pics/zoro.png"/>
      			 <h1>Manucher Yazdanpour</h1>
- 			<!--<input type="text" id="searchBar" name="search">
-			<button type="button">search</button>-->  	
 		</div>
-		<div id="navigation">
+		
+		<!-- <div id="navigation">
 			<ul>
 				<li><a href="index.php" id="nav1">Home</a></li>
         			<hr>
@@ -33,7 +32,7 @@
         			<hr>
 				<li><a href="forum.php" id="nav4">Forum</a></li>
       			</ul>
-   		</div>
+   		</div> -->
 
 
 	<div id="userlogin">
