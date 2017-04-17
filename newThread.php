@@ -16,9 +16,11 @@
 	<div id="content">
 		<h2> Forum > New Thread </h2>
 		<form method="POST" action="handleThread.php"  enctype="multipart/form-data">
-		title: <input type="text" id="threadTitle" value ="<?php if(isset($_SESSION['inputs'])){echo $_SESSION['inputs']['threadTitle'];} ?>" name="threadTitle">	
+		<label for="threadTitle">Title:</label>
+		 <input type="text" id="threadTitle" value ="<?php if(isset($_SESSION['inputs'])){echo $_SESSION['inputs']['threadTitle'];} ?>" name="threadTitle">	
 		<br>
-		body: <input type="text" id="threadBody"value="<?php if(isset($_SESSION['inputs'])){echo $_SESSION['inputs']['threadBody'];} ?>"  name="threadBody">
+		<label for="threadBody">Body:</label>
+		<input type="text" id="threadBody"value="<?php if(isset($_SESSION['inputs'])){echo $_SESSION['inputs']['threadBody'];} ?>"  name="threadBody">
 		<input type="submit">
 	
 	<?php

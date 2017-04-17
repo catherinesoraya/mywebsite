@@ -51,8 +51,8 @@
 	
 	echo "<form method='POST' action='handleLogin.php' name='login' id='login'>
 	<ul> 
-		<li>username:<br><input type='text' id='username' value='".$_SESSION['inputs']['username']."' name='username'></li>
-		<li>password:<br><input type='password' id='passwd' name='passwd'></li>	
+		<li><label for='username'>Username:</label><br><input type='text' id='username' value='".$_SESSION['inputs']['username']."' name='username'></li>
+		<li><label for='passwd'>Password:</label><br><input type='password' id='passwd' name='passwd'></li>	
 		<input type='submit' value='Log In'>		
 		<button type='button'><a href='register.php'>Register</a></button>
 	</ul>
