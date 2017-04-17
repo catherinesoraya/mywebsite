@@ -93,7 +93,7 @@ a:active{
    	bottom:0px;
    	height:30px;
    	width:100%;
-  	background-color: rgba(255, 165, 10, 0.7);
+	background-color: rgba(211, 194, 61, 0.7);
 	text-align: center;
 	font-family: 'Telex', sans-serif;
 	font-size: vw;
@@ -130,7 +130,7 @@ hr{
 
 
 input {
-	 background-color: rgba(211, 194, 61);
+	 background-color: rgb(211, 194, 61);
 	width:70%;	
 }
 
@@ -147,13 +147,10 @@ input[name=threadBody] {
 
 	height: 100;
 	margin-top: 50px;
-      background-color: rgba(211, 194, 61); 
+      background-color: rgb(211, 194, 61); 
 }
 
 
-#searchBar{
-	width:10%;
-}	
 
 #userlogin {
 	border: 1px black solid;
